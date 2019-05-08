@@ -1,6 +1,64 @@
 $(document).ready(function(){
 
+    $('.visitPinterestButton').on('click', function(){
+        window.location.href = "https://sprung-pinterest.herokuapp.com/";
+    });
+    $('.visitVroomButton').on('click', function(){
+        window.location.href = "https://vrooms.github.io/entrance/";
+    });
+    $('.visitInstaAPIButton').on('click', function(){
+        window.location.href = "https://the-generators.github.io/whereAreMyFriends/";
+    });
 
+    $('.linkedin').on('click', function(){
+        window.location.href = "http://www.linkedin.com/in/jin-redmond";
+    });
+    $('.github').on('click', function(){
+        window.location.href = "http://github.com/jinredhub";
+    })
+
+    // smooth scrolling
+    $('a[href^="#"]').on("click", function(event){
+        if(this.hash !== ""){
+            // event.preventDefault();
+            var hash = this.hash;
+
+            $("html, body").stop().animate({
+                scrollTop: $(hash).offset().top-57
+            }, 500, function(){
+                window.location.hash = hash;
+            });
+        }
+    });
+
+    // toggle between show/hide the mobile navbar menu
+    $('.hamburgerIcon').on('click', function(){
+        const container = document.querySelector('.myLinks');
+        if(container.style.display === 'block'){
+            container.style.display = "none";
+        }
+        else{
+            container.style.display = 'block';
+        }
+    });
+
+    // close mobile navbar when user click outside
+    const linkContainer = document.querySelector('.myLinks');
+    const hamburgerButton = document.querySelector('.hamburgerIcon');
+
+    // need to put all of them in same function
+    window.onclick = function(event){
+        console.log('t or f: ', event.target.closest('.myLinks') == linkContainer);
+        if(event.target != linkContainer && event.target.closest('.myLinks') != linkContainer && event.target.closest('.hamburgerIcon') != hamburgerButton){
+            linkContainer.style.display = 'none';
+        }
+    }
+
+    // initialize wow.js scroll animation
+	new WOW({
+		mobile: false,
+		offset: 50
+	}).init();
 
 });
 
