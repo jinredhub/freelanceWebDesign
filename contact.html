@@ -17,6 +17,7 @@
         <!-- css -->
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
 
 		<!-- google analytics -->
 		<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126824002-1"></script>
@@ -58,16 +59,49 @@
 
         <main>
             <!-- form section -->
-            <section id='jobDetail'>
+            <section>
                     <div class="padding50"></div>
-                    <h1 class='text-align-center'>forms</h1>
-                    <div class="disp-flex">
+                    <h1 class='text-align-center'>Contact Form</h1>
                         <form action="https://formspree.io/jin@nieblo.com" method="POST">
-                            <input type="text" name="name">
-                            <input type="email" name="_replyto">
-                            <input type="submit" value="Send">
+                            <div class="disp-flex">
+                                <div class="flex-50 padding-inputEl">
+                                    <label for="first_name" class='req'>First name</label>
+                                    <input type="text" class='form-control' name="first_name" required>    
+                                </div>
+                                <div class="flex-50 padding-inputEl">
+                                    <label for="last_name" class='req'>Last name</label>
+                                    <input type="text" class='form-control' name='last_name' required>        
+                                </div>
+                            </div>
+                        
+                            <div class="disp-flex">
+                                <div class="flex-50 padding-inputEl">
+                                    <label for="phone_number">Phone</label>
+                                    <input type="text" class='form-control' name='phone_number'>        
+                                </div>
+                                <div class="flex-50 padding-inputEl">
+                                    <label for="url">URL</label><small> : Your current website address if you have it</small>        
+                                    <input type="text" class='form-control' name='url'>
+                                </div>
+                            </div>
+
+                            <div class="disp-flex">
+                                <div class="flex-50 padding-inputEl">
+                                        <label for="_replyto" class='req'>Email</label>
+                                        <input type="email" class='form-control' name="_replyto" required>
+                                </div>
+                                <div class="flex-50 padding-inputEl"></div>    
+                            </div>
+
+                            <div class="disp-flex flex-dir-col padding-inputEl">
+                                <label for="message" class='req'>Message</label>
+                                <textarea class='form-control' name="message" cols="30" rows="10" required></textarea>
+                            </div>
+                         
+                            <div class="disp-flex justify-content--center padding-inputEl align-items--center" style='height:80px;'>
+                                <input type="submit" value="Send" class='btn btn-green'>
+                            </div>
                         </form>
-                    </div>
                     <div class="padding50"></div>
                 </section>
 

@@ -649,6 +649,29 @@
 }
   /* end buttons -------------------------------------*/
 
+  /* form -------------------------------------------- */
+    .form-control{
+        display: block;
+        width: 100%;
+        padding: 6px 12px;
+        font-size: 1rem;
+        color: #495057;
+        background-color: white;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+    }
+
+    .form-control:focus{
+        border-color: #ffe480;
+        box-shadow: 0 0 0 0.2rem rgba(255, 153, 0, 0.25);
+        outline: 0;
+    }
+    label{
+        display: inline-block;
+        margin-bottom: .5rem;
+    }
+  /* end form----------------------------------------- */
+
   h1,
   .h1,
   h2,
@@ -692,275 +715,3 @@ body{
 }
   /*end media query------------------------------------*/
   
-
-  /* //////////////////////////////////////////////////////////// */
-  /* ///////// start custom css //////////////////////////////// */
-  /* ////////////////////////////////////////////////////////// */
-
-*{
-    box-sizing: border-box;
-}
-*:focus{
-    /* change blue outline when focusing buttons */
-    outline-color: #727b84;  
-}
-body{
-    background-color: #fcfbfa;
-}
-
-section{
-    max-width: 1024px;
-    margin: 0 auto;
-}
-p{
-    line-height: 170%;
-}
-.padding50{
-    padding-bottom: 50px;
-}
-.btn-green{
-    background-color: #98b31a;
-    padding: 10px 30px;
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-}
-.btn-green:hover{
-    background-color: #a6c126;
-}
-.btn-green:active{
-    background-color: #97af21;
-}
-
-/* desktop nav=========================================== */
-.desktopNavContainer{
-    background-color: #fcfbfa
-}
-.desktopNavContainer .logo{
-    padding: 14px 16px;
-}
-.myDesktopLinks a{
-    color: #1b1c1d;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* mobile nav============================================ */
-.mobileNavContainer{
-    background-color: #fcfbfa;
-    position: relative;
-    display: none;
-}
-.mobileNavContainer .myLinks{
-    display: none;
-    position: absolute;
-    width: 100%;
-    top: 100%;
-}
-.mobileNavContainer a{
-    color: #1b1c1d;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    background-color: #fcfbfa;
-}
-.mobileNavContainer .hamburgerIcon{
-    background-color: transparent;
-    display: block;
-}
-.mobileNavContainer a:hover{
-    background-color: #e0e0e0;
-}
-
-/* header========================================= */
-header{
-    height: 80vh;
-    background-image: url("../images/bg.jpg");
-    background-position: center;
-    background-size: cover;
-    color: white;
-}
-header h1{
-    font-size: 46px;
-}
-header p{
-    font-size: 22px;
-    font-weight: bold;
-}
-header a{
-    text-decoration: none;
-    color: white;
-}
-
-/* job details======================================= */
-/* #jobDetail h2{
-    font-size: 36px;
-}
-#jobDetail p{
-    font-size: 18px;
-} */
-
-/* portfolio section================================== */
-.portfolioSection{
-    /* width: 100%; */
-}
-.portfolioSectionContainer{
-    background-color: #e0e0e0;
-
-}
-.portfolioSection img{
-    width: 100%;
-}
-.portfolioSection h1{
-    font-size: 56px;
-}
-.portfolioSection h2{
-    /* font-size: 36px; */
-}
-.portfolioSection p{
-    /* font-size: 18px; */
-}
-
-/* score section ===================================== */
-/* .scoreSection h1{
-    font-size: 56px;
-} */
-.scoreSection img{
-    width: 70%;
-    padding: 30px 20px 20px 100px;
-}
-/* .scoreSection h2{
-    font-size: 36px;
-} */
-.link{
-    color: #98b31a;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* footer ======================================== */
-footer{
-    color: white;
-    height: 250px;
-    background-color: #1b1c1d;
-}
-footer button{
-    border-radius: 100px !important;
-    padding: 13px 16px !important;
-    font-size: 18px !important;
-    color: white !important;
-}
-footer .linkedin{
-    background-color: #007bff;
-}
-footer .linkedin:hover{
-    background-color: #0069b9;
-}
-footer .linkedin:active{
-    background-color: #015a9e;
-}
-footer .github{
-    background-color: #868e96;
-}
-footer .github:hover{
-    background-color: #727b84;
-}
-footer .github:active{
-    background-color: #676d74;
-}
-
-/* media query=================================================== */
-@media(max-width: 768px){
-    .disp-flex{
-        flex-wrap: wrap;
-    }
-    .flex-100{
-    flex: 1 1 100%;
-    }
-    .flex-95{
-    flex: 1 1 100%;
-    }
-    .flex-85{
-    flex: 1 1 100%;
-    }
-    .flex-80 {
-    flex: 1 1 100%;
-    }
-    .flex-75{
-    flex: 1 1 100%;
-    }
-    .flex-40{
-    flex: 1 1 100%;
-    }
-    .flex-50{
-    flex: 1 1 100%;
-    }
-    .flex-66{
-    flex: 1 1 100%;
-    }
-    .flex-60{
-    flex: 1 1 100%;
-    }
-    .flex-66{
-    flex: 1 1 100%;
-    }
-    .flex-33{
-    flex: 1 1 100%;
-    }
-    .flex-25{
-    flex: 1 1 100%;
-    }
-    .flex-20{
-    flex: 1 1 100%;
-    }
-    .flex-15{
-    flex: 1 1 100%;
-    }
-    .flex-10{
-    flex: 1 1 100%;
-    }
-
-    header{
-        flex-wrap: nowrap !important;
-    }
-    header h1{
-        font-size: 36px;
-    }
-    #jobDebail h2{
-        font-size: 26px;
-    }
-    .portfolioSection h1{
-        font-size: 36px;
-    }
-    .portfolioSection h2{
-        font-size: 26px;
-    }
-    .scoreSection h1{
-        font-size: 36px;
-    }
-    .scoreSection h2{
-        font-size: 26px;
-    }
-    .scoreSection img{
-        padding: 20px;
-        width: 30%;
-    }
-    .order1{
-        order: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .order2{
-        order: 2;
-    }
-    .mobileNavContainer{
-        display: flex;
-    }
-    section{
-        max-width: 1024px;
-        margin: 0 100px;
-    }
-}
