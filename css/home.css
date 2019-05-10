@@ -34,48 +34,7 @@ p{
 .btn-green:active{
     background-color: #97af21;
 }
-
-/* desktop nav=========================================== */
-.desktopNavContainer{
-    background-color: #fcfbfa
-}
-.desktopNavContainer .logo{
-    padding: 14px 16px;
-}
-.desktopNavContainer a{
-    color: #1b1c1d;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* mobile nav============================================ */
-.mobileNavContainer{
-    background-color: #fcfbfa;
-    position: relative;
-    display: none;
-}
-.mobileNavContainer .myLinks{
-    display: none;
-    position: absolute;
-    width: 100%;
-    top: 100%;
-}
-.mobileNavContainer a{
-    color: #1b1c1d;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    background-color: #fcfbfa;
-}
-.mobileNavContainer .hamburgerIcon{
-    background-color: transparent;
-    display: block;
-}
-.mobileNavContainer a:hover{
-    background-color: #e0e0e0;
-}
+/* nav : not here================================= */
 
 /* header========================================= */
 header{

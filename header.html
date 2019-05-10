@@ -1,16 +1,63 @@
 
+
+<style>
+
+    /* desktop nav=========================================== */
+    .desktopNavContainer{
+        background-color: #fcfbfa
+    }
+    .desktopNavContainer .logo{
+        padding: 14px 16px;
+    }
+    .desktopNavContainer a{
+        color: #1b1c1d;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    /* mobile nav============================================ */
+    .mobileNavContainer{
+        background-color: #fcfbfa;
+        position: relative;
+        display: none;
+    }
+    .mobileNavContainer .myLinks{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 100%;
+    }
+    .mobileNavContainer a{
+        color: #1b1c1d;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        background-color: #fcfbfa;
+    }
+    .mobileNavContainer .hamburgerIcon{
+        background-color: transparent;
+        display: block;
+    }
+    .mobileNavContainer a:hover{
+        background-color: #e0e0e0;
+    }
+
+</style>
+
 <!-- desktop nav menu -->
-<nav class='desktopNavContainer disp-flex justify-content--space-between align-items--center hide-tablet'>
+<div class='nav desktopNavContainer disp-flex justify-content--space-between align-items--center hide-tablet'>
     <a href="./index.html" class='logo'>JR</a>
     <div class='myDesktopLinks'>
         <a href="./index.html">Home</a>
         <a href="./price.html">Price</a>
         <a href="./contact.html">Contact</a>
     </div>
-</nav>
+</div>
 
 <!-- mobile nav menu -->
-<nav class='mobileNavContainer disp-flex justify-content--space-between align-items--center'>
+<div class='nav mobileNavContainer disp-flex justify-content--space-between align-items--center'>
     <a href="./index.html">JR</a>
     <div class="myLinks">
         <a href="./index.html">Home</a>
@@ -20,4 +67,5 @@
     <a href="javascript:void(0);" class='hamburgerIcon'>
         <i class="fas fa-bars"></i>
     </a>
-</nav>
+</div>
+
