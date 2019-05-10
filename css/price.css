@@ -34,6 +34,11 @@ p{
 .btn-green:active{
     background-color: #97af21;
 }
+main{
+    /* fallback */
+    min-height: 80vh;
+    min-height: calc(100vh - 300px);
+}
 
 /* desktop nav=========================================== */
 .desktopNavContainer{
@@ -48,6 +53,7 @@ p{
     text-decoration: none;
     font-size: 17px;
 }
+
 
 /* mobile nav============================================ */
 .mobileNavContainer{
@@ -97,51 +103,9 @@ header a{
     color: white;
 }
 
-/* job details======================================= */
-/* #jobDetail h2{
-    font-size: 36px;
-}
-#jobDetail p{
-    font-size: 18px;
-} */
+/* price section==================================== */
 
-/* portfolio section================================== */
-.portfolioSection{
-    /* width: 100%; */
-}
-.portfolioSectionContainer{
-    background-color: #e0e0e0;
 
-}
-.portfolioSection img{
-    width: 100%;
-}
-.portfolioSection h1{
-    font-size: 56px;
-}
-.portfolioSection h2{
-    /* font-size: 36px; */
-}
-.portfolioSection p{
-    /* font-size: 18px; */
-}
-
-/* score section ===================================== */
-/* .scoreSection h1{
-    font-size: 56px;
-} */
-.scoreSection img{
-    width: 70%;
-    padding: 30px 20px 20px 100px;
-}
-/* .scoreSection h2{
-    font-size: 36px;
-} */
-.link{
-    color: #98b31a;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 /* footer ======================================== */
 footer{
@@ -263,7 +227,9 @@ footer .github:active{
         display: flex;
     }
     section{
-        max-width: 1024px;
-        margin: 0 100px;
+        margin: 0 10px;
+    }
+    .padding-2{
+        padding: 6px;
     }
 }

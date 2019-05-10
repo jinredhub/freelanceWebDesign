@@ -19,7 +19,19 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/home.css">
 
-		<!-- google analytics -->
+        <!-- jquery -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+
+        <script>
+            $(function(){
+                $('#footer').load('footer.html');
+            });
+        </script>
+        
+        <!-- google analytics -->
 		<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126824002-1"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
@@ -31,9 +43,13 @@
 
     </head>
     <body>
+        <style>
+            
+        </style>
+
         <!-- desktop nav menu -->
         <nav class='desktopNavContainer disp-flex justify-content--space-between align-items--center hide-tablet'>
-            <a href="#home" class='logo'>Logo</a>
+            <a href="./index.html" class='logo'>JR</a>
             <div class='myDesktopLinks'>
                 <a href="./index.html">Home</a>
                 <a href="./price.html">Price</a>
@@ -43,7 +59,7 @@
 
         <!-- mobile nav menu -->
         <nav class='mobileNavContainer disp-flex justify-content--space-between align-items--center'>
-            <a href="#home">Logo</a>
+            <a href="./index.html">JR</a>
             <div class="myLinks">
                 <a href="./index.html">Home</a>
                 <a href="./price.html">Price</a>
@@ -175,18 +191,10 @@
         </main>
 
 		<!-- footer -->
-		<footer class='disp-flex justify-content--center align-items--center flex-dir-col'>
-            <div class='padding-bottom-2'>
-                <button type="button" class='btn github' aria-label="click to go to my github page"><i class="fab fa-github-alt"></i></button>
-            </div>
-            <p>Copyright <i class="fas fa-copyright"></i> 2019 Jin Redmond</p>
-		</footer>
+		<footer id='footer'></footer>
 
         <!-- lazysizes -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js"></script>
-
-        <!-- jquery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
         <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>

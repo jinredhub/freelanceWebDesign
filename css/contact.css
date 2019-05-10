@@ -34,6 +34,11 @@ p{
 .btn-green:active{
     background-color: #97af21;
 }
+main{
+    /* fallback */
+    min-height: 80vh;
+    min-height: calc(100vh - 300px);
+}
 
 /* desktop nav=========================================== */
 .desktopNavContainer{
@@ -42,7 +47,7 @@ p{
 .desktopNavContainer .logo{
     padding: 14px 16px;
 }
-.myDesktopLinks a{
+.desktopNavContainer a{
     color: #1b1c1d;
     padding: 14px 16px;
     text-decoration: none;

@@ -9,8 +9,7 @@
         <!-- favicon -->
 		<link rel="shortcut icon" href="./images/favicon.ico">
         <!-- google fonts -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 		<!-- font awesome -->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <!-- normalize -->
@@ -18,7 +17,7 @@
         <!-- css -->
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/contact.css">
+		<link rel="stylesheet" type="text/css" href="css/price.css">
 
 		<!-- google analytics -->
 		<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126824002-1"></script>
@@ -37,7 +36,7 @@
             <a href="./index.html" class='logo'>JR</a>
             <div class='myDesktopLinks'>
                 <a href="./index.html">Home</a>
-                <a href="./price.html">Price</a>
+                <a href="./price.html" class='active'>Price</a>
                 <a href="./contact.html">Contact</a>
             </div>
         </nav>
@@ -47,7 +46,7 @@
             <a href="./index.html">JR</a>
             <div class="myLinks">
                 <a href="./index.html">Home</a>
-                <a href="./price.html">Price</a>
+                <a href="./price.html" class='active'>Price</a>
                 <a href="./contact.html">Contact</a>
             </div>
             <a href="javascript:void(0);" class='hamburgerIcon'>
@@ -59,52 +58,66 @@
     	<div class='disp-flex justify-content--center align-items--center flex-dir-col'></div>
 
         <main>
-            <!-- form section -->
+            <!-- price section -->
             <section>
                     <div class="padding50"></div>
-                    <h1 class='text-align-center'>Contact Form</h1>
+                    <h1 class='text-align-center'>Production cost</h1>
                     <div class="padding50"></div>
 
-                        <form action="https://formspree.io/jin@nieblo.com" method="POST">
-                            <div class="disp-flex">
-                                <div class="flex-50 padding-inputEl">
-                                    <label for="first_name" class='req'>First name</label>
-                                    <input type="text" class='form-control' name="first_name" required>    
-                                </div>
-                                <div class="flex-50 padding-inputEl">
-                                    <label for="last_name" class='req'>Last name</label>
-                                    <input type="text" class='form-control' name='last_name' required>        
-                                </div>
-                            </div>
-                        
-                            <div class="disp-flex">
-                                <div class="flex-50 padding-inputEl">
-                                    <label for="phone_number">Phone</label>
-                                    <input type="text" class='form-control' name='phone_number'>        
-                                </div>
-                                <div class="flex-50 padding-inputEl">
-                                    <label for="url">URL</label><small> : Your current website url if you have it</small>        
-                                    <input type="text" class='form-control' name='url'>
-                                </div>
-                            </div>
+                        <div class='padding-2'>
 
-                            <div class="disp-flex">
-                                <div class="flex-50 padding-inputEl">
-                                        <label for="_replyto" class='req'>Email</label>
-                                        <input type="email" class='form-control' name="_replyto" required>
-                                </div>
-                                <div class="flex-50 padding-inputEl"></div>    
-                            </div>
+                            <h2>Responsive website ($1,900)</h2>
 
-                            <div class="disp-flex flex-dir-col padding-inputEl">
-                                <label for="message" class='req'>Message</label>
-                                <textarea class='form-control' name="message" cols="30" rows="10" required></textarea>
-                            </div>
-                         
-                            <div class="disp-flex justify-content--center padding-inputEl align-items--center" style='height:80px;'>
-                                <input type="submit" value="Send" class='btn btn-green'>
-                            </div>
-                        </form>
+                            <!-- <h3>What's included and what is not?</h3> -->
+                            <table class='myTable'>
+                                <tbody>
+
+                                </tbody>
+                                <tr>
+                                    <td>Website</td>
+                                    <td>Max 3 pages (Includes main page)</td>
+                                    <td>Included</td>
+                                </tr>
+                                <tr>
+                                    <td>Add pages</td>
+                                    <td>Length A4 x 2</td>
+                                    <td>$70 / page</td>
+                                </tr>
+                                <tr>
+                                    <td>Map</td>
+                                    <td>Google Maps</td>
+                                    <td>Free</td>
+                                </tr>
+                                <tr>
+                                    <td>Instagram</td>
+                                    <td>Instagram integration</td>
+                                    <td>Free</td>
+                                </tr>
+                                <tr>
+                                    <td>Twitter</td>
+                                    <td>Twitter integration</td>
+                                    <td>Free</td>
+                                </tr>
+                                <tr>
+                                    <td>Facebook</td>
+                                    <td>Facebook integration</td>
+                                    <td>Free</td>
+                                </tr>
+                                <tr>
+                                    <td>Form</td>
+                                    <td>Add contact form</td>
+                                    <td>$400</td>
+                                </tr>
+                                <tr>
+                                    <td>Photography</td>
+                                    <td>Within 3 hours</td>
+                                    <td>$300</td>
+                                </tr>
+                            </table>
+
+                            <p>If the customization you are looking for is not on the list. <br>Please send me a message from the <a href="./contact.html">contact page.</a></p>
+                        </div>
+
                     <div class="padding50"></div>
                 </section>
 
