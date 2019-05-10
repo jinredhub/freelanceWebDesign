@@ -143,36 +143,8 @@ header a{
     font-weight: bold;
 }
 
-/* footer ======================================== */
-#footer{
-    color: white;
-    height: 250px;
-    background-color: #1b1c1d;
-}
-#footer button{
-    border-radius: 100px !important;
-    padding: 13px 16px !important;
-    font-size: 18px !important;
-    color: white !important;
-}
-#footer .linkedin{
-    background-color: #007bff;
-}
-#footer .linkedin:hover{
-    background-color: #0069b9;
-}
-#footer .linkedin:active{
-    background-color: #015a9e;
-}
-#footer .github{
-    background-color: #868e96;
-}
-#footer .github:hover{
-    background-color: #727b84;
-}
-#footer .github:active{
-    background-color: #676d74;
-}
+/* footer: not here======================================== */
+
 
 /* media query=================================================== */
 @media(max-width: 768px){
