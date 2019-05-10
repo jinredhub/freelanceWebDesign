@@ -144,33 +144,33 @@ header a{
 }
 
 /* footer ======================================== */
-footer{
+#footer{
     color: white;
     height: 250px;
     background-color: #1b1c1d;
 }
-footer button{
+#footer button{
     border-radius: 100px !important;
     padding: 13px 16px !important;
     font-size: 18px !important;
     color: white !important;
 }
-footer .linkedin{
+#footer .linkedin{
     background-color: #007bff;
 }
-footer .linkedin:hover{
+#footer .linkedin:hover{
     background-color: #0069b9;
 }
-footer .linkedin:active{
+#footer .linkedin:active{
     background-color: #015a9e;
 }
-footer .github{
+#footer .github{
     background-color: #868e96;
 }
-footer .github:hover{
+#footer .github:hover{
     background-color: #727b84;
 }
-footer .github:active{
+#footer .github:active{
     background-color: #676d74;
 }
 
