@@ -148,7 +148,7 @@ header a{
         margin: 0 100px;
     }
     /* ============================================== */
-
+    /* if you change "section padding lr", change "section h1 margin lr" */
     header{
         flex-wrap: nowrap !important;
     }

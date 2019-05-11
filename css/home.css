@@ -35,7 +35,14 @@ p{
     background-color: #97af21;
 }
 
-/* h1 h2 p size, except header */
+/* main body min-height */
+main{
+    /* fallback */
+    min-height: 80vh;
+    min-height: calc(100vh - 300px);
+}
+
+/* set h1 h2 p font-size here , except header */
 
 
 /* nav : not here================================= */
@@ -146,9 +153,10 @@ header a{
     }
     section{
         max-width: 1024px;
-        margin: 0 100px;
+        padding: 0 100px
     }
     /* =============================================== */
+    /* if you change "section padding lr", change "section h1 margin lr" */
     header{
         flex-wrap: nowrap !important;
     }
@@ -177,7 +185,7 @@ header a{
         margin-right: 0px;
     }
     section{
-        margin: 0 10px;
+        padding: 0 10px;
     }
-/* ================================================ */
+    /* ================================================ */
 }
