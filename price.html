@@ -13,11 +13,24 @@
 		<!-- font awesome -->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <!-- normalize -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
         <!-- css -->
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/price.css">
+
+        <!-- jquery -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+
+        <script>
+            $(function(){
+                $('footer').load('footer.html');
+                $('nav').load('header.html');
+            });
+        </script>
 
 		<!-- google analytics -->
 		<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126824002-1"></script>
@@ -31,28 +44,9 @@
 
     </head>
     <body>
-        <!-- desktop nav menu -->
-        <nav class='desktopNavContainer disp-flex justify-content--space-between align-items--center hide-tablet'>
-            <a href="./index.html" class='logo'>JR</a>
-            <div class='myDesktopLinks'>
-                <a href="./index.html">Home</a>
-                <a href="./price.html" class='active'>Price</a>
-                <a href="./contact.html">Contact</a>
-            </div>
-        </nav>
 
-        <!-- mobile nav menu -->
-        <nav class='mobileNavContainer disp-flex justify-content--space-between align-items--center'>
-            <a href="./index.html">JR</a>
-            <div class="myLinks">
-                <a href="./index.html">Home</a>
-                <a href="./price.html" class='active'>Price</a>
-                <a href="./contact.html">Contact</a>
-            </div>
-            <a href="javascript:void(0);" class='hamburgerIcon'>
-                <i class="fas fa-bars"></i>
-            </a>
-        </nav>
+        <!-- nav -->
+        <nav></nav>
 
         <!-- title section -->
     	<div class='disp-flex justify-content--center align-items--center flex-dir-col'></div>
@@ -121,24 +115,14 @@
                     <div class="padding50"></div>
                 </section>
 
-
-            
         </main>
 
 		<!-- footer -->
-		<footer class='disp-flex justify-content--center align-items--center flex-dir-col'>
-            <div class='padding-bottom-2'>
-                <button type="button" class='btn github' aria-label="click to go to my github page"><i class="fab fa-github-alt"></i></button>
-            </div>
-            <p>Copyright <i class="fas fa-copyright"></i> 2019 Jin Redmond</p>
-		</footer>
+		<footer></footer>
 
         <!-- lazysizes -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js"></script>
-
-        <!-- jquery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+        
         <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
 

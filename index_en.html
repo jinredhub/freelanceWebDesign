@@ -13,13 +13,30 @@
 		<!-- font awesome -->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <!-- normalize -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
         <!-- css -->
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/home_en.css">
+        <link rel="stylesheet" type="text/css" href="css/home_en.css">
+        
+        <!-- jquery -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+
+        <script>
+            $(function(){
+                $('footer').load('footer.html');
+                $('nav').load('header.html');
+            });
+        </script>
+        
     </head>
     <body>
+
+        <!-- nav -->
+        <nav></nav>
 
         <!-- title section -->
     	<header class='disp-flex justify-content--center align-items--center flex-dir-col'>
@@ -130,19 +147,11 @@
         </main>
 
 		<!-- footer -->
-		<footer class='disp-flex justify-content--center align-items--center flex-dir-col'>
-            <div class='padding-bottom-2'>
-                <button type="button" class='btn github' aria-label="click to go to my github page"><i class="fab fa-github-alt"></i></button>
-            </div>
-            <p>Copyright <i class="fas fa-copyright"></i> 2019 Jin Redmond</p>
-		</footer>
+		<footer></footer>
 
         <!-- lazysizes -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js"></script>
-
-        <!-- jquery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+        
         <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
 

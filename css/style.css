@@ -704,7 +704,7 @@ body{
         display: block !important;
     }
 }
-/*smartphones*/
+/*before gets to smartphones*/
 @media (max-width: 480px){
     .hide-mobile{
         display: none !important;

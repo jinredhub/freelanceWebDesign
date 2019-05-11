@@ -58,8 +58,9 @@ $(document).ready(function(){
 	new WOW({
 		mobile: false,
 		offset: 50
-	}).init();
+    }).init();  
+
+    
 
 });
-
 

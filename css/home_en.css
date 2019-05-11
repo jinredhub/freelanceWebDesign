@@ -35,6 +35,11 @@ p{
     background-color: #97af21;
 }
 
+/* h1 h2 p size, except header */
+
+
+/* nav : not here================================= */
+
 /* header========================================= */
 header{
     height: 80vh;
@@ -55,17 +60,9 @@ header a{
 }
 
 /* job details======================================= */
-#jobDetail h2{
-    font-size: 36px;
-}
-#jobDetail p{
-    font-size: 18px;
-}
+
 
 /* portfolio section================================== */
-.portfolioSection{
-    /* width: 100%; */
-}
 .portfolioSectionContainer{
     background-color: #e0e0e0;
 
@@ -73,26 +70,11 @@ header a{
 .portfolioSection img{
     width: 100%;
 }
-.portfolioSection h1{
-    font-size: 56px;
-}
-.portfolioSection h2{
-    font-size: 36px;
-}
-.portfolioSection p{
-    font-size: 18px;
-}
 
 /* score section ===================================== */
-.scoreSection h1{
-    font-size: 56px;
-}
 .scoreSection img{
     width: 70%;
     padding: 30px 20px 20px 100px;
-}
-.scoreSection h2{
-    font-size: 36px;
 }
 .link{
     color: #98b31a;
@@ -100,36 +82,8 @@ header a{
     font-weight: bold;
 }
 
-/* footer ======================================== */
-footer{
-    color: white;
-    height: 250px;
-    background-color: #1b1c1d;
-}
-footer button{
-    border-radius: 100px !important;
-    padding: 13px 16px !important;
-    font-size: 18px !important;
-    color: white !important;
-}
-footer .linkedin{
-    background-color: #007bff;
-}
-footer .linkedin:hover{
-    background-color: #0069b9;
-}
-footer .linkedin:active{
-    background-color: #015a9e;
-}
-footer .github{
-    background-color: #868e96;
-}
-footer .github:hover{
-    background-color: #727b84;
-}
-footer .github:active{
-    background-color: #676d74;
-}
+/* footer: not here======================================== */
+
 
 /* media query=================================================== */
 @media(max-width: 768px){
@@ -181,27 +135,25 @@ footer .github:active{
     .flex-10{
     flex: 1 1 100%;
     }
+    section h1{
+        font-size: 26px;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    section h2{
+        font-size: 18px;
+    }
+    section{
+        max-width: 1024px;
+        margin: 0 100px;
+    }
+    /* ============================================== */
 
     header{
         flex-wrap: nowrap !important;
     }
     header h1{
         font-size: 36px;
-    }
-    #jobDebail h2{
-        font-size: 26px;
-    }
-    .portfolioSection h1{
-        font-size: 36px;
-    }
-    .portfolioSection h2{
-        font-size: 26px;
-    }
-    .scoreSection h1{
-        font-size: 36px;
-    }
-    .scoreSection h2{
-        font-size: 26px;
     }
     .scoreSection img{
         padding: 20px;
@@ -216,5 +168,16 @@ footer .github:active{
     .order2{
         order: 2;
     }
+}
 
+/*before reaches smartphones res*/
+@media (max-width: 480px){
+    section h1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    section{
+        margin: 0 10px;
+    }
+/* ================================================ */
 }
