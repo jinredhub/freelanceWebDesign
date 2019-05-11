@@ -63,39 +63,61 @@
                             <div class="disp-flex">
                                 <div class="flex-50 padding-inputEl">
                                     <label for="first_name" class='req'>First name</label>
-                                    <input type="text" class='form-control' name="first_name" required>    
+                                    <input type="text" class='form-cont' name="first_name" required>    
                                 </div>
                                 <div class="flex-50 padding-inputEl">
                                     <label for="last_name" class='req'>Last name</label>
-                                    <input type="text" class='form-control' name='last_name' required>        
+                                    <input type="text" class='form-cont' name='last_name' required>        
                                 </div>
                             </div>
                         
                             <div class="disp-flex">
                                 <div class="flex-50 padding-inputEl">
                                     <label for="phone_number">Phone</label>
-                                    <input type="text" class='form-control' name='phone_number'>        
+                                    <input type="text" class='form-cont' name='phone_number'>        
                                 </div>
                                 <div class="flex-50 padding-inputEl">
                                     <label for="url">URL</label><small> : Your current website url if you have it</small>        
-                                    <input type="text" class='form-control' name='url'>
+                                    <input type="text" class='form-cont' name='url'>
                                 </div>
                             </div>
 
                             <div class="disp-flex">
                                 <div class="flex-50 padding-inputEl">
-                                        <label for="_replyto" class='req'>Email</label>
-                                        <input type="email" class='form-control' name="_replyto" required>
+                                    <label for="_replyto" class='req'>Email</label>
+                                    <input type="email" class='form-cont' name="_replyto" required>
                                 </div>
-                                <div class="flex-50 padding-inputEl"></div>    
+                                <div class="flex-50 padding-inputEl">
+                                    <label for="email_again" class='req'>Email(again)</label>
+                                    <input type="email" class='form-cont' name="email_again" required>    
+                                </div>    
+                            </div>
+
+                            <div class="disp-flex">
+                                <div class="flex-50 padding-inputEl">
+                                    <label for="topic" class='req'>Please choose</label>
+                                    <label class="checkBoxContainer" for="request_to_create_new_website">Request to create new website
+                                        <input type="checkbox" name="request_to_create_new_website" id="request_to_create_new_website" value="yes">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkBoxContainer" for="request_to_create_new_website_and_maintenance">Request to create new website and maintenance
+                                        <input type="checkbox" name="request_to_create_new_website_and_maintenance" id="request_to_create_new_website_and_maintenance" value="yes">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkBoxContainer" for="other_request">Other
+                                        <input type="checkbox" name="other_request" id="other_request" value="yes">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
                             </div>
 
                             <div class="disp-flex flex-dir-col padding-inputEl">
                                 <label for="message" class='req'>Message</label>
-                                <textarea class='form-control' name="message" cols="30" rows="10" required></textarea>
+                                <textarea class='form-cont' name="message" cols="30" rows="10" required></textarea>
+                                <p><span class='req'></span> = Required Field</p>
                             </div>
                          
-                            <div class="disp-flex justify-content--center padding-inputEl align-items--center" style='height:80px;'>
+                            <div class="disp-flex justify-content--center padding-inputEl align-items--center">
                                 <input type="submit" value="Send" class='btn btn-green'>
                             </div>
                         </form>

@@ -408,7 +408,7 @@
     height: 25px;
     width: 25px;
     background-color: #f7f7f7;
-    border: 1px solid #aaa;
+    border: 2px solid #ced4da;
     border-radius: 4px;
   }
   
@@ -436,8 +436,8 @@
   
   /* Style the checkmark/indicator */
   .checkBoxContainer .checkmark:after {
-    left: 9px;
-    top: 5px;
+    left: 8px;
+    top: 4px;
     width: 5px;
     height: 10px;
     border: solid #F59D18;
@@ -448,7 +448,7 @@
   }
   /*add outline when navigating with keyboard*/
   .checkBoxContainer input:focus ~ .checkmark {
-    border-color: #5f5f5f;
+    border-color: #ffe480;
     box-shadow: inset 0 1px 1px rgba(0,0,0, .075) ,0 0 8px rgba(107, 107, 107, 0.6);
   }
   /*end custom checkbox or radiobutton (square dark-green checkbox)--------------*/
@@ -650,20 +650,20 @@
   /* end buttons -------------------------------------*/
 
   /* form -------------------------------------------- */
-    .form-control{
+    .form-cont{
         display: block;
         width: 100%;
         padding: 6px 12px;
         font-size: 1rem;
         color: #495057;
         background-color: white;
-        border: 1px solid #ced4da;
+        border: 2px solid #ced4da;
         border-radius: 5px;
     }
 
-    .form-control:focus{
+    .form-cont:focus{
         border-color: #ffe480;
-        box-shadow: 0 0 0 0.2rem rgba(255, 153, 0, 0.25);
+        box-shadow: 0 0 0 0.1rem rgba(255, 153, 0, 0.25);
         outline: 0;
     }
     label{
@@ -705,7 +705,7 @@ body{
     }
 }
 /*before gets to smartphones*/
-@media (max-width: 480px){
+@media (max-width: 590px){
     .hide-mobile{
         display: none !important;
     }

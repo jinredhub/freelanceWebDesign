@@ -179,7 +179,7 @@ header a{
 }
 
 /*before reaches smartphones res*/
-@media (max-width: 480px){
+@media (max-width: 590px){
     section h1{
         margin-left: 0px;
         margin-right: 0px;
