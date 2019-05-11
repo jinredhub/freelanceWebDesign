@@ -703,6 +703,9 @@ body{
     .show-tablet{
         display: block !important;
     }
+    .show-tablet-flex{
+        display: flex !important;
+    }
 }
 /*before gets to smartphones*/
 @media (max-width: 590px){
@@ -711,6 +714,9 @@ body{
     }
     .show-mobile{
         display: block !important;
+    }
+    .show-mobile-flex{
+        display: flex !important;
     }
 }
   /*end media query------------------------------------*/
