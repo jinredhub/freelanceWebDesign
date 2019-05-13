@@ -21,19 +21,6 @@ p{
 .padding50{
     padding-bottom: 50px;
 }
-.btn-green{
-    background-color: #98b31a;
-    padding: 10px 30px;
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-}
-.btn-green:hover{
-    background-color: #a6c126;
-}
-.btn-green:active{
-    background-color: #97af21;
-}
 
 /* h1 h2 p size, except header */
 
@@ -75,11 +62,6 @@ header a{
 .scoreSection img{
     width: 70%;
     padding: 30px 20px 20px 100px;
-}
-.link{
-    color: #98b31a;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 /* footer: not here======================================== */
