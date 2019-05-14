@@ -18,19 +18,15 @@
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/home.css">
+    
+     
 
-        <!-- jquery -->
-        <script
-        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
-        crossorigin="anonymous"></script>
-
-        <script>
+        <!-- <script>
             $(function(){
                 $('footer').load('footer.html');
                 $('nav').load('header.html');
             });
-        </script>
+        </script> -->
         
         <!-- google analytics -->
 		<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126824002-1"></script>
@@ -45,13 +41,16 @@
     </head>
     <body>
 
+    
         <!-- nav -->
-        <nav></nav>
+        <nav>
+            <?php include('header.php'); ?>
+        </nav>
 
         <!-- title section -->
     	<header class='disp-flex justify-content--center align-items--center flex-dir-col'>
             <div>
-                <h1 class='bold'>レスポンシブな<br hidden class='show-tablet'/>ホームページ制作</h1>
+                <h1 class='bold'>レスポンシブなna<br hidden class='show-tablet'/>ホームページ制作</h1>
                 <p>WebDesign</p>
             </div>    
            
@@ -169,8 +168,16 @@
         </main>
 
 		<!-- footer -->
-		<footer></footer>
-
+        <footer>
+            <?php include('footer.php'); ?>
+        </footer>
+        
+        <!-- jquery -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+           
         <!-- lazysizes -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js"></script>
 
