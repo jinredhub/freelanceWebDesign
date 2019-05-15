@@ -66,7 +66,7 @@
         <a href="./contact.php">お問い合わせ・お申込み</a>
         <a href="./index_en.php">English</a>
     </div>
-    <a href="javascript:void(0);" class='hamburgerIcon'>
+    <a href="javascript:void(0);" class='hamburgerIcon' aria-label="click to open mobile navigation menu">
         <i class="fas fa-bars"></i>
     </a>
 </div>

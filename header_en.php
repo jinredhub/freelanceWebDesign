@@ -66,7 +66,7 @@
         <a href="./contact_en.php">Contact</a>
         <a href="./index.php">日本語</a>
     </div>
-    <a href="javascript:void(0);" class='hamburgerIcon'>
+    <a href="javascript:void(0);" class='hamburgerIcon' aria-label="click to open mobile navigation menu">
         <i class="fas fa-bars"></i>
     </a>
 </div>
