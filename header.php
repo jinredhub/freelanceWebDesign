@@ -48,23 +48,23 @@
 
 <!-- desktop nav menu -->
 <div class='nav desktopNavContainer disp-flex justify-content--space-between align-items--center hide-tablet'>
-    <a href="./index.html" class='logo'>JR</a>
+    <a href="./index.php" class='logo'>JR</a>
     <div class='myDesktopLinks'>
-        <a href="./index.html">トップ</a>
-        <a href="./price.html">制作費用</a>
-        <a href="./contact.html">お問い合わせ・お申込み</a>
-        <a href="./index_en.html">English</a>
+        <a href="./index.php">トップ</a>
+        <a href="./price.php">制作費用</a>
+        <a href="./contact.php">お問い合わせ・お申込み</a>
+        <a href="./index_en.php">English</a>
     </div>
 </div>
 
 <!-- mobile nav menu -->
 <div class='nav mobileNavContainer disp-flex justify-content--space-between align-items--center show-tablet-flex'>
-    <a href="./index.html">JR</a>
+    <a href="./index.php">JR</a>
     <div class="myLinks">
-        <a href="./index.html">トップ</a>
-        <a href="./price.html">制作費用</a>
-        <a href="./contact.html">お問い合わせ・お申込み</a>
-        <a href="./index_en.html">English</a>
+        <a href="./index.php">トップ</a>
+        <a href="./price.php">制作費用</a>
+        <a href="./contact.php">お問い合わせ・お申込み</a>
+        <a href="./index_en.php">English</a>
     </div>
     <a href="javascript:void(0);" class='hamburgerIcon'>
         <i class="fas fa-bars"></i>

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="keywords" content="web, web design, web development, developer, freelance, freelancer, front-end, job, Jin Redmond, San Francisco, bay area, WEBデザイン,　ディレクション, Webサイト作成、　ウェブサイト、　作成">
         <meta name="description" content="Multifunctional designer/fontend developer based in San Francisco">
-        <title>Jin - Web Developer</title>
+        <title>Jin - Web Developer: pricing</title>
         <!-- favicon -->
 		<link rel="shortcut icon" href="./images/favicon.ico">
         <!-- google fonts -->
@@ -19,34 +19,13 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/price.css">
 
-        <!-- jquery -->
-        <script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
-
-        <script>
-            $(function(){
-                $('nav').load('header_en.html');
-                $('footer').load('footer.html');
-            });
-        </script>
-
-		<!-- google analytics -->
-		<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126824002-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-126824002-1');
-		</script>		 -->
-
     </head>
     <body>
 
         <!-- nav -->
-        <nav></nav>
+        <nav>
+            <?php include('header_en.php'); ?>
+        </nav>
 
         <!-- title section -->
     	<div class='disp-flex justify-content--center align-items--center flex-dir-col'></div>
@@ -117,7 +96,15 @@
         </main>
 
 		<!-- footer -->
-		<footer></footer>
+		<footer>
+            <?php include('footer.php'); ?>
+        </footer>
+
+        <!-- jquery -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
 
         <!-- lazysizes -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js"></script>

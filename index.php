@@ -9,7 +9,8 @@
         <!-- favicon -->
 		<link rel="shortcut icon" href="./images/favicon.ico">
         <!-- google fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">         -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 		<!-- font awesome -->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <!-- normalize -->
@@ -18,25 +19,6 @@
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/home.css">
-    
-     
-
-        <!-- <script>
-            $(function(){
-                $('footer').load('footer.html');
-                $('nav').load('header.html');
-            });
-        </script> -->
-        
-        <!-- google analytics -->
-		<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126824002-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-126824002-1');
-		</script>		 -->
 
     </head>
     <body>
@@ -50,7 +32,7 @@
         <!-- title section -->
     	<header class='disp-flex justify-content--center align-items--center flex-dir-col'>
             <div>
-                <h1 class='bold'>レスポンシブなna<br hidden class='show-tablet'/>ホームページ制作</h1>
+                <h1 class='bold'>レスポンシブな<br hidden class='show-tablet'/>ホームページ制作</h1>
                 <p>WebDesign</p>
             </div>    
            

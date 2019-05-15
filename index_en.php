@@ -19,24 +19,13 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/home_en.css">
         
-        <!-- jquery -->
-        <script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
-
-        <script>
-            $(function(){
-                $('nav').load('header_en.html');
-                $('footer').load('footer.html');
-            });
-        </script>
-        
     </head>
     <body>
 
         <!-- nav -->
-        <nav></nav>
+        <nav>
+            <?php include('header_en.php'); ?>
+        </nav>
 
         <!-- title section -->
     	<header class='disp-flex justify-content--center align-items--center flex-dir-col'>
@@ -147,8 +136,16 @@
         </main>
 
 		<!-- footer -->
-		<footer></footer>
+		<footer>
+            <?php include('footer.php'); ?>
+        </footer>
 
+        <!-- jquery -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        
         <!-- lazysizes -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js"></script>
         
