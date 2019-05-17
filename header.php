@@ -44,6 +44,13 @@
         background-color: #e0e0e0;
     }
 
+    /* both============================================ */
+    .langButton{
+        border-radius: 0;
+        background-color: #98b31a !important;
+    }
+ 
+
 </style>
 
 <!-- desktop nav menu -->
@@ -53,7 +60,7 @@
         <a href="./index.php">トップ</a>
         <a href="./price.php">制作費用</a>
         <a href="./contact.php">お問い合わせ・お申込み</a>
-        <a href="./index_en.php">English</a>
+        <a href="./index_en.php" class='btn btn-primary langButton'>English</a>
     </div>
 </div>
 
@@ -64,7 +71,7 @@
         <a href="./index.php">トップ</a>
         <a href="./price.php">制作費用</a>
         <a href="./contact.php">お問い合わせ・お申込み</a>
-        <a href="./index_en.php">English</a>
+        <a href="./index_en.php" class='btn btn-primary langButton'>English</a>
     </div>
     <a href="javascript:void(0);" class='hamburgerIcon' aria-label="click to open mobile navigation menu">
         <i class="fas fa-bars"></i>

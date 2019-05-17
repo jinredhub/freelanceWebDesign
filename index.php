@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="keywords" content="web, web design, web development, developer, freelance, freelancer, front-end, job, Jin Redmond, San Francisco, bay area, bay area, ベイエリア、 WEBデザイン,　ディレクション, Webサイト作成、　ウェブサイト、　作成、　フリーランス、　サンフランシスコ">
+        <meta name="keywords" content="affordable web design in San Francisco, freelancer web developer in bay area, Jin Redmond, WEBデザイン サンフランシスコ, ウェブ制作　ベイエリア、　フリーランス　ウェブ作成　サンフランシスコ">
         <meta name="description" content="Multifunctional designer/fontend developer based in San Francisco">
         <title>Jin - Web Developer</title>
         <!-- favicon -->
@@ -15,10 +15,12 @@
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <!-- normalize -->
         <link rel="stylesheet" href="css/normalize.css">
+        <!-- modernizr, check WebP support -->
+        <script src='js/modernizr-custom.js'></script>
         <!-- css -->
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/home.css">
+        <link rel="stylesheet" type="text/css" href="css/home.css">
 
     </head>
     <body>
@@ -54,17 +56,29 @@
                 <h1 class='text-align-center'>個人事業・中小企業の<br hidden class='show-tablet'>ホームページ作成</h1>
                 <div class="disp-flex">
                     <div class="flex-33 text-align-center padding-2">
-                        <img src="./images/icon1.png" alt="thumbnail of responsive website">
+                        <picture>
+                            <source srcset="./images/webp/icon1.webp" type='image/webp'>
+                            <source srcset="./images/icon1.png" type='image/png'>
+                            <img src="./images/icon1.png" alt="thumbnail of responsive website">
+                        </picture>
                         <h2>スマホ対応</h2>
                         <p>スマホやタブレットに対応したレスポンシブなWebデザイン。スマートフォンの小さな画面でも内容が見やすくデザインします。</p>
                     </div>
                     <div class="flex-33 text-align-center padding-2">
-                        <img src="./images/icon2.png" alt="thumbnail of ideas">
+                        <picture>
+                            <source srcset="./images/webp/icon2.webp" type='image/webp'>
+                            <source srcset="./images/icon2.png" type='image/png'>
+                            <img src="./images/icon2.png" alt="thumbnail of ideas">
+                        </picture>
                         <h2>アイディアを実現</h2>
                         <p>お客様の制作したいホームーページを実現するため、お客様と相談し、ご自分でのメンテナンス方法などを探します。</p>
                     </div>
                     <div class="flex-33 text-align-center padding-2">
-                        <img src="./images/icon3.png" alt="thumbnail of code">
+                        <picture>
+                            <source srcset="./images/webp/icon3.webp" type='image/webp'>
+                            <source srcset="./images/icon3.png" type='image/png'>
+                            <img src="./images/icon3.png" alt="thumbnail of code">
+                        </picture>
                         <h2>フロントエンドの開発</h2>
                         <p>HTML5, CSS, Javascriptを利用したパフォーマンス、メンテナンス性、SEO内部対策を意識したフロントエンドの開発を行います。</p>
                     </div>
@@ -80,7 +94,11 @@
                     <h1 class='text-align-center wow fadeIn' id="myWork">My Work</h1>
                     <div class="disp-flex">
                         <div class="flex-50 padding-2 wow fadeInLeft">
-                            <img class="lazyload" data-src="./images/portfolio_pinit.png" alt="thumbnail of pinit website">
+                            <picture>
+                                <source srcset="./images/webp/portfolio_pinit.webp" type='image/webp'>
+                                <source srcset="./images/portfolio_pinit.png" type='image/png'>
+                                <img class="lazyload" data-src="./images/portfolio_pinit.png" alt="thumbnail of pinit website">
+                            </picture>
                         </div>
                         <div class="flex-50 padding-2 wow fadeInRight">
                             <h2>PinIt</h2>
@@ -94,7 +112,11 @@
     
                     <div class="disp-flex">
                         <div class="flex-50 padding-2 wow fadeInLeft">
-                            <img class="lazyload" data-src="./images/portfolio_vrooms.png" alt="thumbnail of vr-webapp">
+                            <picture>
+                                <source srcset="./images/webp/portfolio_vrooms.webp" type='image/webp'>
+                                <source srcset="./images/portfolio_vrooms.png" type='image/png'>
+                                <img class="lazyload" data-src="./images/portfolio_vrooms.png" alt="thumbnail of vr-webapp">
+                            </picture>
                         </div>
                         <div class="flex-50 padding-2 wow fadeInRight">
                             <h2>Vrooms</h2>
@@ -108,7 +130,11 @@
     
                     <div class="disp-flex">
                         <div class="flex-50 padding-2 wow fadeInLeft">
-                            <img class="lazyload" data-src="./images/portfolio_whereAre.png" alt="thumbnail of webapp using instagram api">
+                            <picture>
+                                <source srcset="./images/webp/portfolio_whereAre.webp" type='image/webp'>
+                                <source srcset="./images/portfolio_whereAre.png" type='image/png'>
+                                <img class="lazyload" data-src="./images/portfolio_whereAre.png" alt="thumbnail of webapp using instagram api">
+                            </picture>
                         </div>
                         <div class="flex-50 padding-2 wow fadeInRight">
                             <h2>Instagram-API</h2>
@@ -139,7 +165,11 @@
 
                     </div>
                     <div class="flex-50 order1">
-                        <img src="./images/speed.png" alt="speed test">
+                        <picture>
+                            <source srcset="./images/webp/speed.webp" type='image/webp'>
+                            <source srcset="./images/speed.png" type='image/png'>
+                            <img src="./images/speed.png" alt="speed test">
+                        </picture>
                     </div>
                 </div>
                 
@@ -153,6 +183,8 @@
         <footer>
             <?php include('footer.php'); ?>
         </footer>
+
+<!-- ====================================================================== -->
         
         <!-- jquery -->
         <script

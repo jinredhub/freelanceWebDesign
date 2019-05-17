@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="keywords" content="web, web design, web development, developer, freelance, freelancer, front-end, job, Jin Redmond, San Francisco, bay area, WEBデザイン,　ディレクション, Webサイト作成、　ウェブサイト、　作成">
+        <meta name="keywords" content="affordable web design in San Francisco, freelancer web developer in bay area, Jin Redmond, WEBデザイン サンフランシスコ, ウェブ制作　ベイエリア、　フリーランス　ウェブ作成　サンフランシスコ">
         <meta name="description" content="Multifunctional designer/fontend developer based in San Francisco">
         <title>Jin - Web Developer: お問い合わせ</title>
         <!-- favicon -->

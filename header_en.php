@@ -44,6 +44,12 @@
         background-color: #e0e0e0;
     }
 
+    /* both============================================ */
+    .langButton{
+        border-radius: 0;
+        background-color: #98b31a !important;
+    }
+
 </style>
 
 <!-- desktop nav menu -->
@@ -53,7 +59,7 @@
         <a href="./index_en.php">Home</a>
         <a href="./price_en.php">Price</a>
         <a href="./contact_en.php">Contact</a>
-        <a href="./index.php">日本語</a>
+        <a href="./index.php" class='btn btn-primary langButton'>日本語</a>
     </div>
 </div>
 
@@ -64,7 +70,7 @@
         <a href="./index_en.php">Home</a>
         <a href="./price_en.php">Price</a>
         <a href="./contact_en.php">Contact</a>
-        <a href="./index.php">日本語</a>
+        <a href="./index.php" class='btn btn-primary langButton'>日本語</a>
     </div>
     <a href="javascript:void(0);" class='hamburgerIcon' aria-label="click to open mobile navigation menu">
         <i class="fas fa-bars"></i>

@@ -59,7 +59,6 @@ $(document).ready(function(){
 		mobile: false,
 		offset: 50
     }).init();  
-
     
 
 });
