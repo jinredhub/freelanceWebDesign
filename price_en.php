@@ -76,7 +76,7 @@
                                 <tr>
                                     <td>Form</td>
                                     <td>Add contact form</td>
-                                    <td>$400</td>
+                                    <td>$70</td>
                                 </tr>
                                 <tr>
                                     <td>Photography</td>

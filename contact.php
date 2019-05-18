@@ -38,43 +38,44 @@
                 <h1 class='text-align-center'>お問い合わせフォーム</h1>
                 <div class="padding50"></div>
 
-                    <form action="https://formspree.io/jin@nieblo.com" method="POST">
-                        <div class="disp-flex">
-                            <div class="flex-50 padding-inputEl">
-                                <label for="first_name" class='req'>名前</label>
-                                <input type="text" class='form-cont' name="first_name" required>    
-                            </div>
-                            <div class="flex-50 padding-inputEl">
-                                <label for="last_name" class='req'>苗字</label>
-                                <input type="text" class='form-cont' name='last_name' required>        
-                            </div>
+                <form action="https://formspree.io/jin@nieblo.com" method="POST">
+                    <div class="disp-flex">
+                        <div class="flex-50 padding-inputEl">
+                            <label for="first_name" class='req'>名前</label>
+                            <input type="text" class='form-cont' name="first_name" required>    
                         </div>
-                    
-                        <div class="disp-flex">
-                            <div class="flex-50 padding-inputEl">
-                                <label for="phone_number">電話番号</label>
-                                <input type="text" class='form-cont' name='phone_number'>        
-                            </div>
-                            <div class="flex-50 padding-inputEl">
-                                <label for="url">URL</label><small> : ウェブサイトを持っていたら記入してください</small>        
-                                <input type="text" class='form-cont' name='url'>
-                            </div>
+                        <div class="flex-50 padding-inputEl">
+                            <label for="last_name" class='req'>苗字</label>
+                            <input type="text" class='form-cont' name='last_name' required>        
                         </div>
+                    </div>
+                
+                    <div class="disp-flex">
+                        <div class="flex-50 padding-inputEl">
+                            <label for="phone_number">電話番号</label>
+                            <input type="text" class='form-cont' name='phone_number'>        
+                        </div>
+                        <div class="flex-50 padding-inputEl">
+                            <label for="url">URL</label><small> : ウェブサイトを持っていたら記入してください</small>        
+                            <input type="text" class='form-cont' name='url'>
+                        </div>
+                    </div>
 
-                        <div class="disp-flex">
-                            <div class="flex-50 padding-inputEl">
-                                <label for="_replyto" class='req'>Email</label>
-                                <input type="email" class='form-cont' name="_replyto" required>
-                            </div>
-                            <div class="flex-50 padding-inputEl">
-                                <label for="email_again" class='req'>Email(確認用)</label>
-                                <input type="email" class='form-cont' name="email_again" required>    
-                            </div>    
+                    <div class="disp-flex">
+                        <div class="flex-50 padding-inputEl">
+                            <label for="_replyto" class='req'>Email</label>
+                            <input type="email" class='form-cont' name="_replyto" required>
                         </div>
+                        <div class="flex-50 padding-inputEl">
+                            <label for="email_again" class='req'>Email(確認用)</label>
+                            <input type="email" class='form-cont' name="email_again" required>    
+                        </div>    
+                    </div>
 
-                        <div class="disp-flex">
-                            <div class="flex-50 padding-inputEl">
-                                <label for="topic" class='req'>該当するものを選んでください</label>
+                    <div class="disp-flex">
+                        <div class="flex-50 padding-inputEl">
+                            <label for="topic" class='req'>該当するものを選んでください</label>
+                            <div class='padding-left-2'>
                                 <label class="checkBoxContainer" for="request_to_create_new_website">新規ウェブサイト
                                     <input type="checkbox" name="request_to_create_new_website" id="request_to_create_new_website" value="yes">
                                     <span class="checkmark"></span>
@@ -89,26 +90,21 @@
                                 </label>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="disp-flex flex-dir-col padding-inputEl">
-                            <label for="message" class='req'>メッセージ</label>
-                            <textarea class='form-cont' name="message" cols="30" rows="10" required></textarea>
-                            <p><span class='req'></span> = 必須項目です</p>
-                        </div>
-                        
-                        <div class="disp-flex justify-content--center padding-inputEl align-items--center">
-                            <input type="submit" value="送る" class='btn btn-primary'>
-                        </div>
-                    </form>
+                    <div class="disp-flex flex-dir-col padding-inputEl">
+                        <label for="message" class='req'>メッセージ</label>
+                        <textarea class='form-cont' name="message" cols="30" rows="10" required></textarea>
+                        <p><span class='req'></span> = 必須項目です</p>
+                    </div>
+                    
+                    <div class="disp-flex justify-content--center padding-inputEl align-items--center">
+                        <input type="submit" value="送る" class='btn btn-primary'>
+                    </div>
+                </form>
+
                 <div class="padding50"></div>
             </section>
-
-            <section>
-                <hr>
-                <script type="text/javascript" src="https://form.jotform.com/jsform/91334647593162"></script>
-                
-            </section>
-
             
         </main>
 

@@ -708,6 +708,12 @@ body{
 }
 /*google fonts-------------------------------------*/
 
+/* form */
+    .form-footer{
+        display: none !important;
+    }
+/* end form */
+
 /*media query----------------------------------------*/
 /*tablets*/
 @media (max-width: 768px){

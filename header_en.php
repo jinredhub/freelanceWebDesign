@@ -49,6 +49,11 @@
         border-radius: 0;
         background-color: #98b31a !important;
     }
+    nav{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
 
 </style>
 

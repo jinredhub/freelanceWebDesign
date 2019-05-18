@@ -74,18 +74,20 @@
                             <div class="disp-flex">
                                 <div class="flex-50 padding-inputEl">
                                     <label for="topic" class='req'>Please choose</label>
-                                    <label class="checkBoxContainer" for="request_to_create_new_website">Request to create new website
-                                        <input type="checkbox" name="request_to_create_new_website" id="request_to_create_new_website" value="yes">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <label class="checkBoxContainer" for="request_to_create_new_website_and_maintenance">Request to create new website and maintenance
-                                        <input type="checkbox" name="request_to_create_new_website_and_maintenance" id="request_to_create_new_website_and_maintenance" value="yes">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                    <label class="checkBoxContainer" for="other_request">Other
-                                        <input type="checkbox" name="other_request" id="other_request" value="yes">
-                                        <span class="checkmark"></span>
-                                    </label>
+                                    <div class='padding-left-2'>
+                                        <label class="checkBoxContainer" for="request_to_create_new_website">Request to create new website
+                                            <input type="checkbox" name="request_to_create_new_website" id="request_to_create_new_website" value="yes">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="checkBoxContainer" for="request_to_create_new_website_and_maintenance">Request to create new website and maintenance
+                                            <input type="checkbox" name="request_to_create_new_website_and_maintenance" id="request_to_create_new_website_and_maintenance" value="yes">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="checkBoxContainer" for="other_request">Other
+                                            <input type="checkbox" name="other_request" id="other_request" value="yes">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
 
