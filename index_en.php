@@ -30,8 +30,9 @@
         <!-- title section -->
     	<header class='disp-flex justify-content--center align-items--center flex-dir-col'>
             <div>
-                <h1 class='bold text-align-center'>Web Design<br> & Development</h1>
-                <!-- <h2>WebDesign</h2> -->
+                <h1 class='bold text-align-center'>Web Development</h1>
+
+                <p>&Design</p>
             </div>
     	</header>
 
@@ -59,11 +60,37 @@
                 </div>
                 <div class="padding50"></div>
             </section>
+
+            <div class='scoreSectionContainerBG'>
+                <!-- score section -->
+                <section class='scoreSection'>
+                    <div class="padding50"></div>
+                    <div class="padding50"></div>
+                    <h1 class='text-align-center'>Know your Score</h1>
+
+                    <div class="disp-flex">
+                        <div class="flex-50 padding-2 order2">
+                            <h2>What is Page Speed Score?</h2>
+                            <p>It is important to have a fast loading website! Fast load speed amplifies visitor engagement, retention and boosts sales.</p>
+                            <p>Google announced in 2018. If your website is very slow. You’re in danger of entirely being taken out from mobile search result.</p>
+                            <p>Reference: <a class='link' href="https://webmasters.googleblog.com/2018/01/using-page-speed-in-mobile-search.html">Google Webmaster</a> <br>
+                            Check your website's score: <a class='link' href="https://developers.google.com/speed/pagespeed/insights/">Google PageSpeed Insights</a></p>
+                        </div>
+                        <div class="flex-50 order1">
+                            <img src="./images/speed.png" alt="speed test">
+                        </div>
+                    </div>
+                    
+                    <div class="padding50"></div>
+                    <div class="padding50"></div>
+                </section>
+            </div>
             
             <!-- portfolio section -->
-            <div class='portfolioSectionContainer'>
+            <div class='portfolioSectionContainerBG'>
                 <section class="portfolioSection">
             
+                    <div class="padding50"></div>
                     <div class="padding50"></div>
                     <h1 class='text-align-center wow fadeIn' id="myWork">My Work</h1>
                     <div class="disp-flex">
@@ -109,29 +136,6 @@
                     <div class="padding50"></div>
                 </section>
             </div>
-
-            <!-- score section -->
-            <section class='scoreSection'>
-                <div class="padding50"></div>
-                <h1 class='text-align-center'>Know your Score</h1>
-
-                <div class="disp-flex">
-                    <div class="flex-50 padding-2 order2">
-                        <h2>What is Speed Score?</h2>
-                        <p>It is important to have a fast loading website! Fast load speed amplifies visitor engagement, retention and boosts sales.</p>
-                        <p>Google announced in 2018. If your website is very slow. You’re in danger of entirely being taken out from mobile search result.</p>
-                        <p>Reference: <a class='link' href="https://webmasters.googleblog.com/2018/01/using-page-speed-in-mobile-search.html">Google Webmaster</a> <br>
-                        Check your website's score: <a class='link' href="https://developers.google.com/speed/pagespeed/insights/">Google PageSpeed Insights</a></p>
-
-                    </div>
-                    <div class="flex-50 order1">
-                        <img src="./images/speed.png" alt="speed test">
-                    </div>
-                </div>
-                
-                <div class="padding50"></div>
-                <div class="padding50"></div>
-            </section>
             
         </main>
 

@@ -51,7 +51,7 @@
                                 <tr>
                                     <td>ページの追加</td>
                                     <td>Length A4 x 2</td>
-                                    <td>$70 / ページ</td>
+                                    <td>$90 / ページ</td>
                                 </tr>
                                 <tr>
                                     <td>マップ</td>

@@ -51,7 +51,7 @@
                                 <tr>
                                     <td>Add pages</td>
                                     <td>Length A4 x 2</td>
-                                    <td>$70 / page</td>
+                                    <td>$90 / page</td>
                                 </tr>
                                 <tr>
                                     <td>Map</td>

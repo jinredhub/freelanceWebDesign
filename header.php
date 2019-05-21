@@ -54,6 +54,7 @@
         position: sticky;
         top: 0;
         z-index: 99;
+        border-bottom: 1px solid #a6a6a6;
     }
  
 

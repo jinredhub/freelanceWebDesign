@@ -38,8 +38,10 @@ header{
 header h1{
     font-size: 56px;
 }
-header h2{
-    font-size: 22px;
+header p{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
 }
 header a{
     text-decoration: none;
@@ -50,7 +52,7 @@ header a{
 
 
 /* portfolio section================================== */
-.portfolioSectionContainer{
+.portfolioSectionContainerBG{
     background-color: #e0e0e0;
 
 }
@@ -59,6 +61,9 @@ header a{
 }
 
 /* score section ===================================== */
+.scoreSectionContainerBG{
+    background-color: #f1f1f1;
+}
 .scoreSection img{
     width: 70%;
     padding: 30px 20px 20px 100px;
