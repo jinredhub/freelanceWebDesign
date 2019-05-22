@@ -131,6 +131,12 @@
                             <button class='btn btn-primary visitInstaAPIButton'>visit website</button>
                         </div>
                     </div>
+
+                    <div class="padding50"></div>
+
+                    <div style='text-align: center;' class='wow fadeIn'>
+                        <a href='./contact_en.php' class='btn btn-primary '><i class="fas fa-envelope"></i> Contact</a>
+                    </div>
     
                     <div class="padding50"></div>
                     <div class="padding50"></div>
