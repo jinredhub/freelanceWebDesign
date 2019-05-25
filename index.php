@@ -141,7 +141,7 @@
 
                     <div class="padding50"></div>
 
-                    <div style='text-align: center;' class='wow fadeIn'>
+                    <div style='text-align: center;' class='wow fadeInUp'>
                         <p style='padding-bottom: 16px;'>ホームページの新規製作、リニューアルをお考えの方はお気楽にご相談ください</p>
                         <a href='./contact.php' class='btn btn-primary '><i class="fas fa-envelope"></i> お問い合わせはこちらから</a>
                     </div>
