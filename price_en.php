@@ -92,7 +92,7 @@
 
                         </table>
 
-                        <p>If you have any questions about integration, <br>please send me a message from the <a href="./contact.html" class='link'>contact page.</a></p>
+                        <p>If you have any questions about integration, <br>please send me a message from the <a href="./contact_en.php" class='link'>contact page.</a></p>
                     </div>
 
                 <div class="padding50"></div>

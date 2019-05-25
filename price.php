@@ -92,7 +92,7 @@
 
                         </table>
 
-                        <p>組み込みについて質問がある場合は、 <br>こちらの<a href="./contact.html" class='link'>お問い合わせページ</a>からお問い合わせください。</p>
+                        <p>組み込みについて質問がある場合は、 <br>こちらの<a href="./contact.php" class='link'>お問い合わせページ</a>からお問い合わせください。</p>
                     </div>
 
                 <div class="padding50"></div>
