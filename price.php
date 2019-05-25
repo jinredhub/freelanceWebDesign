@@ -39,7 +39,7 @@
 
                     <div class='padding-2'>
 
-                        <h2>スマホ対応ウェブサイト ($1,900)</h2>
+                        <h2>スマホ対応ウェブサイト ($2,700)</h2>
 
                         <table class='myTable'>
                             <tbody>
@@ -56,6 +56,11 @@
                                 <tr>
                                     <td>マップ</td>
                                     <td>Google マップ</td>
+                                    <td>無料</td>
+                                </tr>
+                                <tr>
+                                    <td>動画</td>
+                                    <td>YouTubeの動画</td>
                                     <td>無料</td>
                                 </tr>
                                 <tr>
@@ -87,7 +92,7 @@
 
                         </table>
 
-                        <p>組み込みたい機能が載っていなかった場合は、 <br>こちらの<a href="./contact.html" class='link'>お問い合わせページ</a>からお問い合わせください。</p>
+                        <p>組み込みについて質問がある場合は、 <br>こちらの<a href="./contact.html" class='link'>お問い合わせページ</a>からお問い合わせください。</p>
                     </div>
 
                 <div class="padding50"></div>

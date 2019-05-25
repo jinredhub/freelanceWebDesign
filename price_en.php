@@ -39,7 +39,7 @@
 
                     <div class='padding-2'>
 
-                        <h2>Responsive website ($1,900)</h2>
+                        <h2>Responsive website ($2,700)</h2>
 
                         <table class='myTable'>
                             <tbody>
@@ -56,6 +56,11 @@
                                 <tr>
                                     <td>Map</td>
                                     <td>Google Maps</td>
+                                    <td>Free</td>
+                                </tr>
+                                <tr>
+                                    <td>Video</td>
+                                    <td>YouTube Video</td>
                                     <td>Free</td>
                                 </tr>
                                 <tr>
@@ -87,7 +92,7 @@
 
                         </table>
 
-                        <p>If you could not find the customization you are looking for. <br>Please send me a message from the <a href="./contact.html" class='link'>contact page.</a></p>
+                        <p>If you have any questions about integration, <br>please send me a message from the <a href="./contact.html" class='link'>contact page.</a></p>
                     </div>
 
                 <div class="padding50"></div>

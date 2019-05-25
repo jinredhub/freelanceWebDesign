@@ -135,6 +135,7 @@
                     <div class="padding50"></div>
 
                     <div style='text-align: center;' class='wow fadeIn'>
+                        <p style='padding-bottom: 16px;'>Need new website? Please let me know if you have any questions</p>
                         <a href='./contact_en.php' class='btn btn-primary '><i class="fas fa-envelope"></i> Contact</a>
                     </div>
     
