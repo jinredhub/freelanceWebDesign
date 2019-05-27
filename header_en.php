@@ -47,7 +47,7 @@
     /* both============================================ */
     .langButton{
         border-radius: 0;
-        background-color: #98b31a !important;
+        background-color: #97b700 !important;
     }
     nav{
         position: -webkit-sticky;
