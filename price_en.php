@@ -77,16 +77,27 @@
                                     <td>Facebook</td>
                                     <td>Facebook integration</td>
                                     <td>Free</td>
-                                </tr>
+                                    </tr>
                                 <tr>
                                     <td>Form</td>
                                     <td>Add contact form</td>
                                     <td>$70</td>
                                 </tr>
+                                </tr>
+                                <tr>
+                                    <td>Website traffic analysis</td>
+                                    <td>Google Analytics</td>
+                                    <td>$50</td>
+                                </tr>
                                 <tr>
                                     <td>Photography</td>
                                     <td>Within 3 hours</td>
                                     <td>$300</td>
+                                </tr>
+                                <tr>
+                                    <td>Support</td>
+                                    <td>1 month support after completion</td>
+                                    <td>Included</td>
                                 </tr>
                             </tbody>
 

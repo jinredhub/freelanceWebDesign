@@ -50,7 +50,7 @@
                                 </tr>
                                 <tr>
                                     <td>ページの追加</td>
-                                    <td>Length A4 x 2</td>
+                                    <td>長さ A4 x 2</td>
                                     <td>$90 / ページ</td>
                                 </tr>
                                 <tr>
@@ -84,9 +84,19 @@
                                     <td>$70</td>
                                 </tr>
                                 <tr>
+                                    <td>アクセス解析の導入</td>
+                                    <td>Google アナリティクス</td>
+                                    <td>$50</td>
+                                </tr>
+                                <tr>
                                     <td>写真撮影</td>
                                     <td>３時間以内</td>
                                     <td>$300</td>
+                                </tr>
+                                <tr>
+                                    <td>サポート</td>
+                                    <td>完成後一か月間</td>
+                                    <td>料金込み</td>
                                 </tr>
                             </tbody>
 
