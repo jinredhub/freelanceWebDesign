@@ -39,13 +39,3 @@
     </div> -->
     <p>Copyright <i class="fas fa-copyright"></i> 2019 Jin Redmond</p>
 </div>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141238376-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'UA-141238376-1');
-</script>

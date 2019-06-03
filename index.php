@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141238376-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-141238376-1');
+        </script>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="keywords" content="affordable web design in San Francisco, freelancer web developer in bay area, Jin Redmond, WEBデザイン サンフランシスコ, ウェブ制作　ベイエリア、　フリーランス　ウェブ作成　サンフランシスコ">
@@ -9,14 +19,11 @@
         <!-- favicon -->
 		<link rel="shortcut icon" href="./images/favicon.ico">
         <!-- google fonts -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">         -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-		<!-- font awesome -->
+        <!-- font awesome -->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <!-- normalize -->
         <link rel="stylesheet" href="css/normalize.css">
-        <!-- modernizr, check WebP support -->
-        <!-- <script src='js/modernizr-custom.js'></script> -->
         <!-- css -->
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -157,8 +164,6 @@
         <footer>
             <?php include('footer.php'); ?>
         </footer>
-
-<!-- ====================================================================== -->
         
         <!-- jquery -->
         <script
