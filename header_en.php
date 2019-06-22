@@ -64,7 +64,7 @@
     <a href="./index_en.php" class='logo'>JR</a>
     <div class='myDesktopLinks'>
         <a href="./index_en.php">Home</a>
-        <a href="./price_en.php">Price</a>
+        <a href="./price_en.php">Pricing</a>
         <a href="./contact_en.php">Contact</a>
         <a href="./index.php" class='btn btn-primary langButton'>日本語</a>
     </div>
@@ -75,7 +75,7 @@
     <a href="./index_en.php">JR</a>
     <div class="myLinks">
         <a href="./index_en.php">Home</a>
-        <a href="./price_en.php">Price</a>
+        <a href="./price_en.php">Pricing</a>
         <a href="./contact_en.php">Contact</a>
         <a href="./index.php" class='btn btn-primary langButton'>日本語</a>
     </div>

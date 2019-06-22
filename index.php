@@ -50,7 +50,7 @@
             <!-- job detail section -->
             <section id='jobDetail'>
                 <div class="padding50"></div>
-                <h1 class='text-align-center'>個人事業・中小企業の<br hidden class='show-tablet'>ホームページ作成</h1>
+                <h1 class='text-align-center'>個人・個人事業・中小企業の<br hidden class='show-tablet'>ホームページ作成</h1>
                 <div class="disp-flex">
                     <div class="flex-33 text-align-center padding-2">                        
                         <img src="./images/icon1.png" alt="thumbnail of responsive website">
@@ -81,9 +81,7 @@
                     <div class="disp-flex">
                         <div class="flex-50 padding-2 order2">
                             <h2>ページスピードスコアとは?</h2>
-                            <!-- <p>It is important to have a fast loading website! Fast load speed amplifies visitor engagement, retention and boosts sales.</p> -->
                             <p>ウェブサイトのページ表示速度は非常に重要なポイントです。訪問者の５０％が２秒以内のページ速度を期待し、読み込みが３秒以上かかると４０％のユーザーが離脱します。</p>
-                            <!-- <p>Google announced in 2018. If your website is very slow. You’re in danger of entirely being taken out from mobile search result.</p> -->
                             <p>Googleは２０１８年に、モバイルページの表示速度が遅いとSEOに影響し、モバイルの検索から外される危険性があると発表しました。</p>
                             <p>Googleの公式発表（英文）：<a class='link' href="https://webmasters.googleblog.com/2018/01/using-page-speed-in-mobile-search.html">Google Webmaster</a> <br>
                             表示速度のチェック: <a class='link' href="https://developers.google.com/speed/pagespeed/insights/">Google PageSpeed Insights</a></p>
@@ -107,7 +105,7 @@
                     <div class="padding50"></div>
                     <div class="padding50"></div>
                     <h1 class='text-align-center wow fadeIn' id="myWork">My Work</h1>
-                    <div class="disp-flex">
+                    <!-- <div class="disp-flex">
                         <div class="flex-50 padding-2 wow fadeInLeft">
                             <img class="lazyload" data-src="./images/portfolio_pinit.png" alt="thumbnail of pinit website">
                         </div>
@@ -115,6 +113,16 @@
                             <h2>PinIt</h2>
                             <p>On this webapp, you are able to save Pins similar when you using Pinterest. Please create your account to use this site.</p>
                             <button class='btn btn-primary visitPinterestButton'>visit website</button>
+                        </div>
+                    </div> -->
+                    <div class="disp-flex">
+                        <div class="flex-50 padding-2 wow fadeInLeft">    
+                            <img class="lazyload" data-src="./images/portfolio_vrooms.png" alt="thumbnail of vr-webapp">
+                        </div>
+                        <div class="flex-50 padding-2 wow fadeInRight">
+                            <h2>Vrooms</h2>
+                            <p>部屋をウェブサイト上でデザインできるサイトです。部屋の大きさを決めて家具を配置してください。完成した部屋を３６０度、ウェブーVRで見ることができます。</p>
+                            <button class='btn btn-primary visitVroomButton'>visit website</button>
                         </div>
                     </div>
                     

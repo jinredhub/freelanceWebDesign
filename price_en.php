@@ -61,7 +61,7 @@
                                 <tr>
                                     <td>Add pages</td>
                                     <td>Length A4 x 2</td>
-                                    <td>$90 / page</td>
+                                    <td>$160 / page</td>
                                 </tr>
                                 <tr>
                                     <td>Map</td>
@@ -91,13 +91,13 @@
                                 <tr>
                                     <td>Form</td>
                                     <td>Add contact form</td>
-                                    <td>$70</td>
+                                    <td>$90</td>
                                 </tr>
                                 </tr>
                                 <tr>
                                     <td>Website traffic analysis</td>
                                     <td>Google Analytics</td>
-                                    <td>$50</td>
+                                    <td>$70</td>
                                 </tr>
                                 <tr>
                                     <td>Photography</td>

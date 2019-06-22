@@ -103,7 +103,7 @@
                     <div class="padding50"></div>
                     <div class="padding50"></div>
                     <h1 class='text-align-center wow fadeIn' id="myWork">My Work</h1>
-                    <div class="disp-flex">
+                    <!-- <div class="disp-flex">
                         <div class="flex-50 padding-2 wow fadeInLeft">
                             <img class="lazyload" data-src="./images/portfolio_pinit.png" alt="thumbnail of pinit website">
                         </div>
@@ -111,6 +111,16 @@
                             <h2>PinIt</h2>
                             <p>On this webapp, you are able to save Pins similar when you using Pinterest. Please create your account to use this site.</p>
                             <button class='btn btn-primary visitPinterestButton'>visit website</button>
+                        </div>
+                    </div> -->
+                    <div class="disp-flex">
+                        <div class="flex-50 padding-2 wow fadeInLeft">
+                            <img class="lazyload" data-src="./images/portfolio_vrooms.png" alt="thumbnail of vr-webapp">
+                        </div>
+                        <div class="flex-50 padding-2 wow fadeInRight">
+                            <h2>Vrooms</h2>
+                            <p>This app allows you to place furniture of your choice into a room, and fit them to the exact measurements of your room. You can then view the resulting room in a 360 degree virtual reality environment.</p>
+                            <button class='btn btn-primary visitVroomButton'>visit website</button>
                         </div>
                     </div>
                     
