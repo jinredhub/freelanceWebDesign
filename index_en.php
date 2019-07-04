@@ -81,7 +81,7 @@
                     <div class="disp-flex">
                         <div class="flex-50 padding-2 order2">
                             <h2>What is Page Speed Score?</h2>
-                            <p>It is important to have a fast loading website! Fast load speed amplifies visitor engagement, retention and boosts sales.</p>
+                            <p>It is important to have a fast loading website! 50% of users expect a page to load in less than 2 seconds. 40% of users will leave if it takes more than 3 seconds to load. Fast load speed amplifies visitor engagement, retention and boosts sales.</p>
                             <p>Google announced in 2018. If your website is very slow. You’re in danger of entirely being taken out from mobile search result.</p>
                             <p>Reference: <a class='link' href="https://webmasters.googleblog.com/2018/01/using-page-speed-in-mobile-search.html">Google Webmaster</a> <br>
                             Check your website's score: <a class='link' href="https://developers.google.com/speed/pagespeed/insights/">Google PageSpeed Insights</a></p>

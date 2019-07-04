@@ -49,13 +49,13 @@
 
                     <div class='padding-2'>
 
-                        <h2>Responsive website ($2,700)</h2>
+                        <h2>Responsive website ($2,900)</h2>
 
                         <table class='myTable'>
                             <tbody>
                                 <tr>
                                     <td>Website</td>
-                                    <td>Max 3 pages (Includes main page)</td>
+                                    <td>Max 5 pages (Includes main page)</td>
                                     <td>Included</td>
                                 </tr>
                                 <tr>
