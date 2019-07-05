@@ -99,14 +99,14 @@
                                     <td>$70</td>
                                 </tr>
                                 <tr>
+                                    <td>更新作業</td>
+                                    <td><a href="./contact.php" class='link'>お問い合わせページ</a>よりお問い合わせください</td>
+                                    <td>オプショナル</td>
+                                </tr>
+                                <tr>
                                     <td>写真撮影</td>
                                     <td>３時間以内</td>
                                     <td>$300</td>
-                                </tr>
-                                <tr>
-                                    <td>サポート</td>
-                                    <td>完成後一か月間</td>
-                                    <td>料金込み</td>
                                 </tr>
                             </tbody>
 

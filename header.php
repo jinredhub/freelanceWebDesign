@@ -65,6 +65,7 @@
     <a href="./index.php" class='logo'>JR</a>
     <div class='myDesktopLinks'>
         <a href="./index.php">トップ</a>
+        <a href="./flow.php">制作の流れ</a>
         <a href="./price.php">制作費用</a>
         <a href="./contact.php">お問い合わせ・お申込み</a>
         <a href="./index_en.php" class='btn btn-primary langButton'>English</a>
@@ -76,6 +77,7 @@
     <a href="./index.php">JR</a>
     <div class="myLinks">
         <a href="./index.php">トップ</a>
+        <a href="./flow.php">制作の流れ</a>
         <a href="./price.php">制作費用</a>
         <a href="./contact.php">お問い合わせ・お申込み</a>
         <a href="./index_en.php" class='btn btn-primary langButton'>English</a>

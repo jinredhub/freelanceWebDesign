@@ -1,0 +1,127 @@
+
+/* general================================================ */
+*{
+    box-sizing: border-box;
+}
+*:focus{
+    /* change blue outline when focusing buttons */
+    outline-color: #727b84;  
+}
+body{
+    background-color: #fcfbfa;
+}
+
+section{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+p{
+    line-height: 170%;
+}
+.padding50{
+    padding-bottom: 50px;
+}
+
+main{
+    /* fallback */
+    min-height: 80vh;
+    min-height: calc(100vh - 300px);
+}
+
+/* set h1 h2 p font-size here , except header */
+
+
+/* nav : not here================================= */
+
+/* price section==================================== */
+
+/* footer: not here======================================== */
+
+
+/* media query=================================================== */
+@media(max-width: 768px){
+    .disp-flex{
+        flex-wrap: wrap;
+    }
+    .flex-100{
+    flex: 1 1 100%;
+    }
+    .flex-95{
+    flex: 1 1 100%;
+    }
+    .flex-85{
+    flex: 1 1 100%;
+    }
+    .flex-80 {
+    flex: 1 1 100%;
+    }
+    .flex-75{
+    flex: 1 1 100%;
+    }
+    .flex-40{
+    flex: 1 1 100%;
+    }
+    .flex-50{
+    flex: 1 1 100%;
+    }
+    .flex-66{
+    flex: 1 1 100%;
+    }
+    .flex-60{
+    flex: 1 1 100%;
+    }
+    .flex-66{
+    flex: 1 1 100%;
+    }
+    .flex-33{
+    flex: 1 1 100%;
+    }
+    .flex-25{
+    flex: 1 1 100%;
+    }
+    .flex-20{
+    flex: 1 1 100%;
+    }
+    .flex-15{
+    flex: 1 1 100%;
+    }
+    .flex-10{
+    flex: 1 1 100%;
+    }
+    section h1{
+        font-size: 26px;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    section h2{
+        font-size: 18px;
+    }
+    section{
+        max-width: 1024px;
+        padding: 0 100px;
+    }
+    /* ============================================ */
+    /* if you change "section padding lr", change "section h1 margin lr" */
+    section{
+        padding: 0 10px;
+    }
+    section h1{
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .padding-2{
+        padding: 6px;
+    }
+}
+
+/*before reaches smartphones res*/
+@media (max-width: 590px){
+    section h1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    section{
+        padding: 0 10px;
+    }
+    /* ================================================ */
+}

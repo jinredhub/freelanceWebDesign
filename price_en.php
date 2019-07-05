@@ -100,14 +100,14 @@
                                     <td>$70</td>
                                 </tr>
                                 <tr>
+                                    <td>Updating a homepage</td>
+                                    <td>Please send me a message from the <a href="./contact_en.php" class='link'>contact page.</a></td>
+                                    <td>Optional</td>
+                                </tr>
+                                <tr>
                                     <td>Photography</td>
                                     <td>Within 3 hours</td>
                                     <td>$300</td>
-                                </tr>
-                                <tr>
-                                    <td>Support</td>
-                                    <td>1 month support after completion</td>
-                                    <td>Included</td>
                                 </tr>
                             </tbody>
 
