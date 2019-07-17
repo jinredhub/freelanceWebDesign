@@ -112,7 +112,7 @@
                         </div>
                         <div class="flex-50 padding-2 wow fadeInRight">
                             <h2>Delica (製作中)</h2>
-                            <p>サンフランシスコ、フェリービルディングにある日本食の総菜屋さん。お寿司、おにぎり、サンドイッチや丼ぶりなどがデリ形式で売られているお店です。</p>
+                            <p>サンフランシスコ、フェリービルディングにある日本食の総菜屋さん。お寿司、おにぎり、サンドイッチや丼ぶりなどがデリ形式で売られています。</p>
                             <a class='btn btn-primary' href="https://client.jinredmond.com/">visit website</a>
                         </div>
                     </div>
@@ -141,7 +141,6 @@
                         <div class="flex-50 padding-2 wow fadeInRight">
                             <h2>Instagram-API</h2>
                             <p>インスタグラムで保存された写真を世界地図で表示できるサイトです。ピンをクリックすると写真が表示されます。</p>
-                            <button class='btn btn-primary visitInstaAPIButton'>visit website</button>
                             <a class='btn btn-primary' href="https://the-generators.github.io/whereAreMyFriends/">visit website</a>
                         </div>
                     </div>
