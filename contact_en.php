@@ -86,7 +86,7 @@
                                     <label for="topic" class='req'>Please choose</label>
                                     <div class='padding-left-2'>
                                         <label class="checkBoxContainer" for="request_to_create_new_website">Request to create new website
-                                            <input type="checkbox" name="request_to_create_new_website" id="request_to_create_new_website" value="yes">
+                                            <input required type="checkbox" name="request_to_create_new_website" id="request_to_create_new_website" value="yes">
                                             <span class="checkmark"></span>
                                         </label>
                                         <label class="checkBoxContainer" for="request_to_create_new_website_and_maintenance">Request to create new website and maintenance

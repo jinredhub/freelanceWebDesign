@@ -1,14 +1,5 @@
 $(document).ready(function(){
 
-    $('.visitPinterestButton').on('click', function(){
-        window.location.href = "https://sprung-pinterest.herokuapp.com/";
-    });
-    $('.visitVroomButton').on('click', function(){
-        window.location.href = "https://vrooms.github.io/entrance/";
-    });
-    $('.visitInstaAPIButton').on('click', function(){
-        window.location.href = "https://the-generators.github.io/whereAreMyFriends/";
-    });
 
     $('.linkedin').on('click', function(){
         window.location.href = "http://www.linkedin.com/in/jin-redmond";

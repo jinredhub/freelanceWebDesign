@@ -87,7 +87,7 @@
                             <label for="topic" class='req'>該当するものを選んでください</label>
                             <div class='padding-left-2'>
                                 <label class="checkBoxContainer" for="request_to_create_new_website">新規ウェブサイト
-                                    <input type="checkbox" name="request_to_create_new_website" id="request_to_create_new_website" value="yes">
+                                    <input required type="checkbox" name="request_to_create_new_website" id="request_to_create_new_website" value="yes">
                                     <span class="checkmark"></span>
                                 </label>
                                 <label class="checkBoxContainer" for="request_to_create_new_website_and_maintenance">新規ウェブサイトとメンテナンス

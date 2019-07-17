@@ -50,7 +50,7 @@
             <!-- job detail section -->
             <section id='jobDetail'>
                 <div class="padding50"></div>
-                <h1 hidden>job details</h1>
+                <h1 class='text-align-center'>Website for individuals, small/medium businesses</h1>
                 <div class="disp-flex">
                     <div class="flex-33 text-align-center padding-2">
                         <img src="./images/icon1.png" alt="thumbnail of responsive website">
@@ -103,24 +103,15 @@
                     <div class="padding50"></div>
                     <div class="padding50"></div>
                     <h1 class='text-align-center wow fadeIn' id="myWork">My Work</h1>
-                    <!-- <div class="disp-flex">
-                        <div class="flex-50 padding-2 wow fadeInLeft">
-                            <img class="lazyload" data-src="./images/portfolio_pinit.png" alt="thumbnail of pinit website">
-                        </div>
-                        <div class="flex-50 padding-2 wow fadeInRight">
-                            <h2>PinIt</h2>
-                            <p>On this webapp, you are able to save Pins similar when you using Pinterest. Please create your account to use this site.</p>
-                            <button class='btn btn-primary visitPinterestButton'>visit website</button>
-                        </div>
-                    </div> -->
+        
                     <div class="disp-flex">
                         <div class="flex-50 padding-2 wow fadeInLeft">
-                            <img class="lazyload" data-src="./images/portfolio_vrooms.png" alt="thumbnail of vr-webapp">
+                            <img class="lazyload" data-src="./images/portfolio_delica.png" alt="thumbnail of vr-webapp">
                         </div>
                         <div class="flex-50 padding-2 wow fadeInRight">
-                            <h2>Vrooms</h2>
-                            <p>This app allows you to place furniture of your choice into a room, and fit them to the exact measurements of your room. You can then view the resulting room in a 360 degree virtual reality environment.</p>
-                            <button class='btn btn-primary visitVroomButton'>visit website</button>
+                            <h2>Delica (In production)</h2>
+                            <p>Located at Ferry Building Marketplace in San Francisco. Delica offters a variety of beautifully prepared meals to take away. Bento boxes, deli-style options, and fresh salads.</p>
+                            <a class='btn btn-primary' href="https://client.jinredmond.com/">visit website</a>
                         </div>
                     </div>
                     
@@ -134,7 +125,7 @@
                         <div class="flex-50 padding-2 wow fadeInRight">
                             <h2>Vrooms</h2>
                             <p>This app allows you to place furniture of your choice into a room, and fit them to the exact measurements of your room. You can then view the resulting room in a 360 degree virtual reality environment.</p>
-                            <button class='btn btn-primary visitVroomButton'>visit website</button>
+                            <a class='btn btn-primary' href="https://vrooms.github.io/entrance/">visit website</a>
                         </div>
                     </div>
     
@@ -148,7 +139,7 @@
                         <div class="flex-50 padding-2 wow fadeInRight">
                             <h2>Instagram-API</h2>
                             <p>See your friends' instagram pictures by clicking on the location they were taken on a map.</p>
-                            <button class='btn btn-primary visitInstaAPIButton'>visit website</button>
+                            <a class='btn btn-primary' href="https://the-generators.github.io/whereAreMyFriends/">visit website</a>
                         </div>
                     </div>
 

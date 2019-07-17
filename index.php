@@ -105,24 +105,15 @@
                     <div class="padding50"></div>
                     <div class="padding50"></div>
                     <h1 class='text-align-center wow fadeIn' id="myWork">My Work</h1>
-                    <!-- <div class="disp-flex">
-                        <div class="flex-50 padding-2 wow fadeInLeft">
-                            <img class="lazyload" data-src="./images/portfolio_pinit.png" alt="thumbnail of pinit website">
-                        </div>
-                        <div class="flex-50 padding-2 wow fadeInRight">
-                            <h2>PinIt</h2>
-                            <p>On this webapp, you are able to save Pins similar when you using Pinterest. Please create your account to use this site.</p>
-                            <button class='btn btn-primary visitPinterestButton'>visit website</button>
-                        </div>
-                    </div> -->
+              
                     <div class="disp-flex">
                         <div class="flex-50 padding-2 wow fadeInLeft">    
-                            <img class="lazyload" data-src="./images/portfolio_vrooms.png" alt="thumbnail of vr-webapp">
+                            <img class="lazyload" data-src="./images/portfolio_delica.png" alt="thumbnail of vr-webapp">
                         </div>
                         <div class="flex-50 padding-2 wow fadeInRight">
-                            <h2>Vrooms</h2>
-                            <p>部屋をウェブサイト上でデザインできるサイトです。部屋の大きさを決めて家具を配置してください。完成した部屋を３６０度、ウェブーVRで見ることができます。</p>
-                            <button class='btn btn-primary visitVroomButton'>visit website</button>
+                            <h2>Delica (製作中)</h2>
+                            <p>サンフランシスコ、フェリービルディングにある日本食の総菜屋さん。お寿司、おにぎり、サンドイッチや丼ぶりなどがデリ形式で売られているお店です。</p>
+                            <a class='btn btn-primary' href="https://client.jinredmond.com/">visit website</a>
                         </div>
                     </div>
                     
@@ -136,7 +127,7 @@
                         <div class="flex-50 padding-2 wow fadeInRight">
                             <h2>Vrooms</h2>
                             <p>部屋をウェブサイト上でデザインできるサイトです。部屋の大きさを決めて家具を配置してください。完成した部屋を３６０度、ウェブーVRで見ることができます。</p>
-                            <button class='btn btn-primary visitVroomButton'>visit website</button>
+                            <a class='btn btn-primary' href="https://vrooms.github.io/entrance/">visit website</a>
                         </div>
                     </div>
     
@@ -151,6 +142,7 @@
                             <h2>Instagram-API</h2>
                             <p>インスタグラムで保存された写真を世界地図で表示できるサイトです。ピンをクリックすると写真が表示されます。</p>
                             <button class='btn btn-primary visitInstaAPIButton'>visit website</button>
+                            <a class='btn btn-primary' href="https://the-generators.github.io/whereAreMyFriends/">visit website</a>
                         </div>
                     </div>
 

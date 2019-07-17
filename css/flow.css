@@ -29,7 +29,9 @@ main{
 }
 
 /* set h1 h2 p font-size here , except header */
-
+main p{
+    color: #606060;
+}
 
 /* nav : not here================================= */
 
