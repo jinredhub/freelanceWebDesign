@@ -86,15 +86,15 @@
                                     <label for="topic" class='req'>Please choose</label>
                                     <div class='padding-left-2'>
                                         <label class="checkBoxContainer" for="request_to_create_new_website">Request to create new website
-                                            <input required type="checkbox" name="request_to_create_new_website" id="request_to_create_new_website" value="yes">
+                                            <input required type="radio" name="contacting_for" id="request_to_create_new_website" value="request_to_create_new_website">
                                             <span class="checkmark"></span>
                                         </label>
                                         <label class="checkBoxContainer" for="request_to_create_new_website_and_maintenance">Request to create new website and maintenance
-                                            <input type="checkbox" name="request_to_create_new_website_and_maintenance" id="request_to_create_new_website_and_maintenance" value="yes">
+                                            <input type="radio" name="contacting_for" id="request_to_create_new_website_and_maintenance" value="request_to_create_new_website_and_maintenance">
                                             <span class="checkmark"></span>
                                         </label>
                                         <label class="checkBoxContainer" for="other_request">Other
-                                            <input type="checkbox" name="other_request" id="other_request" value="yes">
+                                            <input type="radio" name="contacting_for" id="other_request" value="other_request">
                                             <span class="checkmark"></span>
                                         </label>
                                     </div>
