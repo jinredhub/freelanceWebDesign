@@ -111,9 +111,9 @@
                             <img class="lazyload" data-src="./images/portfolio_delica.png" alt="thumbnail of vr-webapp">
                         </div>
                         <div class="flex-50 padding-2 wow fadeInRight">
-                            <h2>Delica (製作中)</h2>
+                            <h2>Delica</h2>
                             <p>サンフランシスコ、フェリービルディングにある日本食の総菜屋さん。お寿司、おにぎり、サンドイッチや丼ぶりなどがデリ形式で売られています。</p>
-                            <a class='btn btn-primary' href="https://client.jinredmond.com/">visit website</a>
+                            <a class='btn btn-primary' href="http://delicasf.com/">visit website</a>
                         </div>
                     </div>
                     

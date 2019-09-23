@@ -109,9 +109,9 @@
                             <img class="lazyload" data-src="./images/portfolio_delica.png" alt="thumbnail of vr-webapp">
                         </div>
                         <div class="flex-50 padding-2 wow fadeInRight">
-                            <h2>Delica (In production)</h2>
+                            <h2>Delica</h2>
                             <p>Located at Ferry Building Marketplace in San Francisco. Delica offters a variety of beautifully prepared meals to take away. Bento boxes, deli-style options, and fresh salads.</p>
-                            <a class='btn btn-primary' href="https://client.jinredmond.com/">visit website</a>
+                            <a class='btn btn-primary' href="http://delicasf.com/">visit website</a>
                         </div>
                     </div>
                     
