@@ -49,7 +49,7 @@
 
                     <div class='padding-2'>
 
-                        <h2>スマホ対応ウェブサイト ($3,400)</h2>
+                        <h2>スマホ対応ウェブサイト ($2,900)</h2>
 
                         <table class='myTable'>
                             <tbody>
